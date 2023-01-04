@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         chiffre()
         alpha()
         numero()
+        val humain = Personne()
+        humain.Age
+        humain.Nom ="kent"
+        println(humain.Age)
+        println(humain.Nom)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
